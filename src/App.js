@@ -8,7 +8,7 @@ import PtvSports from './pages/PtvSports';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path='/' element={<AppLayout />}>
                     <Route index element={<StarSportsHindi />} />
