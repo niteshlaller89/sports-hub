@@ -1,2 +1,2 @@
-# sports-hub
-Watch cricket online for free ;)
+# Sports Hub
+## Watch your fav sports online free ;)
