@@ -34,14 +34,13 @@ const Sidebar = () => {
         setTimeout(() => {
             const sidebarItem = sidebarRef.current.querySelector('.sidebar__menu__item');
             indicatorRef.current.style.height = `${sidebarItem.clientHeight}px`;
-            console.log(indicatorRef.current.style.height)
             setStepHeight(sidebarItem.clientHeight);
         }, 50);
     }, []);
 
     // change active index
     useEffect(() => {
-        const curPath = window.location.pathname.split('/')[1];
+        const curPath = window.location.pathname.split('/')[0];
         const activeItem = sidebarNavItems.findIndex(item => item.section === curPath);
         setActiveIndex(curPath.length === 0 ? 0 : activeItem);
     }, [location]);
