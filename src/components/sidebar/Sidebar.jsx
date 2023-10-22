@@ -40,7 +40,8 @@ const Sidebar = () => {
 
     // change active index
     useEffect(() => {
-        const curPath = window.location.pathname.split('/')[0];
+        const curPath = window.location.pathname.split('/')[2];
+        console.log(`pathname: ${window.location.pathname}, curr: ${curPath}`);
         const activeItem = sidebarNavItems.findIndex(item => item.section === curPath);
         setActiveIndex(curPath.length === 0 ? 0 : activeItem);
     }, [location]);
