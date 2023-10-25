@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sports-hub/static/css/main.2286f3b4.css",
-    "main.js": "/sports-hub/static/js/main.fcfab9be.js",
+    "main.css": "/sports-hub/static/css/main.7ad9c6b7.css",
+    "main.js": "/sports-hub/static/js/main.e9ca7a4b.js",
     "static/media/boxicons.svg": "/sports-hub/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
     "static/media/boxicons.eot": "/sports-hub/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
     "static/media/boxicons.woff": "/sports-hub/static/media/boxicons.d12afc36557395143e4b.woff",
     "static/media/boxicons.ttf": "/sports-hub/static/media/boxicons.db9ddb1898dbd76badca.ttf",
     "static/media/boxicons.woff2": "/sports-hub/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "index.html": "/sports-hub/index.html",
-    "main.2286f3b4.css.map": "/sports-hub/static/css/main.2286f3b4.css.map",
-    "main.fcfab9be.js.map": "/sports-hub/static/js/main.fcfab9be.js.map"
+    "main.7ad9c6b7.css.map": "/sports-hub/static/css/main.7ad9c6b7.css.map",
+    "main.e9ca7a4b.js.map": "/sports-hub/static/js/main.e9ca7a4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2286f3b4.css",
-    "static/js/main.fcfab9be.js"
+    "static/css/main.7ad9c6b7.css",
+    "static/js/main.e9ca7a4b.js"
   ]
 }
