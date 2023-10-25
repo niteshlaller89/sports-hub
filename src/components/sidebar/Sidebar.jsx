@@ -4,20 +4,20 @@ import './sidebar.scss';
 
 const sidebarNavItems = [
     {
-        display: 'Star Sports - Hindi',
-        icon: <i className='bx bx-star'></i>,
+        display: 'Star Sports (Hindi)',
+        icon: <i className='bx bx-tv'></i>,
         to: '/starsp3',
         section: 'starsp3'
     },
     {
-        display: 'Star Sports - Eng',
-        icon: <i className='bx bx-star'></i>,
+        display: 'Star Sports (English)',
+        icon: <i className='bx bx-tv'></i>,
         to: '/starsp',
         section: 'starsp'
     },
     {
         display: 'Ptv Sports',
-        icon: <i className='bx bx-star'></i>,
+        icon: <i className='bx bx-tv'></i>,
         to: '/ptvsp',
         section: 'ptvsp'
     }

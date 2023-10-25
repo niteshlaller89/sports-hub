@@ -1,5 +1,5 @@
 const PtvSports = () => {
-    return <div>
+    return <div className="channel">
         <iframe
             title="star-sports-english"
             src="https://pipcast.cc/embed.php?v=ptvpk&amp;vw=100%&amp;vh=100%"

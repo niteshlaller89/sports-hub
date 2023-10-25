@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
 * {
+    display: flexbox;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f0f0f0;
-    color: #2b2b2b;
-    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: rgba(125,225,125,0.5);
+    text-shadow: 0 0 5px rgba(125,225,125,0.5), 0 0 15px;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: unset;
+    color: rgba(125,225,125,0.5);
 }
