@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: niteshlaller89/sports-hub
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: Nitesh Laller
